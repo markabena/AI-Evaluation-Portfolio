@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CandidateProfile",
+  "type": "object",
+  "required": ["name", "location", "highest_degree", "domains", "languages", "technical_skills", "writing_evidence", "years_experience", "red_flags"],
+  "properties": {
+    "name": {"type": ["string", "null"]},
+    "location": {
+      "type": "object",
+      "required": ["country"],
+      "properties": {
+        "city": {"type": ["string", "null"]},
+        "country": {"type": ["string", "null"]}
+      }
+    },
+    "highest_degree": {
+      "type": "object",
+      "required": ["level", "field"],
+      "properties": {
+        "level": {"enum": ["none", "secondary", "diploma", "bachelors", "masters", "doctorate", "professional"]},
+        "field": {"type": ["string", "null"]},
+        "institution": {"type": ["string", "null"]},
+        "year": {"type": ["integer", "null"]}
+      }
+    },
+    "domains": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["domain", "evidence"],
+        "properties": {
+          "domain": {"type": "string"},
+          "evidence": {"type": "string"}
+        }
+      }
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["language", "proficiency"],
+        "properties": {
+          "language": {"type": "string"},
+          "proficiency": {"type": "string"}
+        }
+      }
+    },
+    "technical_skills": {"type": "array", "items": {"type": "string"}},
+    "writing_evidence": {"type": "array", "items": {"type": "string"}},
+    "years_experience": {"type": ["number", "null"]},
+    "red_flags": {"type": "array", "items": {"type": "string"}}
+  }
+}

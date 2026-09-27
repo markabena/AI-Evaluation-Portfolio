@@ -1,0 +1,55 @@
+# Platform catalogue used by the matching step.
+#
+# These are broad, general descriptions for demonstration. Requirements, regions,
+# and project availability change often. Review each entry against the platform's
+# own site before using this for real advice, and update `last_reviewed`.
+
+last_reviewed: "2026-09"
+
+tiers:
+  expert: "Needs a degree or professional experience in a specific domain."
+  core: "General writing, reasoning, or coding work; entry through an assessment."
+  entry: "Lower barrier to entry; good first step while building a track record."
+
+platforms:
+  - name: Handshake AI
+    tier: expert
+    looks_for: ["graduate-level or professional domain knowledge", "STEM, finance, law, humanities"]
+    role_types: ["domain expert evaluator", "prompt and rubric author"]
+    regions_note: "Eligibility varies by project and location; check the current listing."
+
+  - name: Mercor
+    tier: expert
+    looks_for: ["professional experience in a named field", "interview-based matching"]
+    role_types: ["expert contractor", "domain reviewer"]
+    regions_note: "Varies by role."
+
+  - name: Alignerr
+    tier: expert
+    looks_for: ["subject-matter expertise", "strong written reasoning"]
+    role_types: ["domain expert AI trainer"]
+    regions_note: "Varies by project."
+
+  - name: Mindrift
+    tier: expert
+    looks_for: ["domain specialists", "writers and editors"]
+    role_types: ["AI tutor", "content editor"]
+    regions_note: "Varies by project."
+
+  - name: Outlier
+    tier: core
+    looks_for: ["clear writing", "reasoning", "coding or domain skills for specialist tracks"]
+    role_types: ["generalist AI trainer", "coding or domain specialist"]
+    regions_note: "Available in many countries; some projects are region-restricted."
+
+  - name: DataAnnotation
+    tier: core
+    looks_for: ["strong writing", "careful reasoning", "coding for coding tracks"]
+    role_types: ["writing and reasoning evaluator", "coding evaluator"]
+    regions_note: "Check the site for supported countries."
+
+  - name: TELUS Digital AI Community
+    tier: entry
+    looks_for: ["language skills", "attention to detail", "local market knowledge"]
+    role_types: ["search and ads evaluator", "data collection and labelling"]
+    regions_note: "Many roles are tied to a specific country or language."
