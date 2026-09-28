@@ -12,6 +12,10 @@ I'm an aerospace engineering graduate (B.Eng, AFIT Kaduna) who now spends most o
 | [`02-evaluation-methodology/`](02-evaluation-methodology/) | Rubric authoring, pairwise preference evaluation, justification writing, and multi-hop research prompt design, each with worked examples. |
 | [`03-cv-platform-matching-workflow/`](03-cv-platform-matching-workflow/) | A three-stage prompt chain (CV extraction → platform matching → advisory report) with a Python runner, JSON schema, and a fictional end-to-end example. |
 
+## Related repo
+
+**[prompt-engineering-workspace](https://github.com/markabena/prompt-engineering-workspace)**: my working lab. Prompt library entries with failure analysis, reusable templates, monthly mock assessments, and Anthropic SDK scripts.
+
 ## A note on confidentiality
 
 Everything in this repo is my own writing. It contains no client guidelines, project names, task data, rubrics, or model outputs from any annotation platform I've worked on. The examples are original and built for this portfolio; the methods are general practice in the field, described in my own words.
