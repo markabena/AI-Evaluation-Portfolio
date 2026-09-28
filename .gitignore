@@ -5,3 +5,7 @@ __pycache__/
 report.md
 profile.json
 matches.json
+
+# Local-only Claude notes (contain NDA screen list)
+CLAUDE.md
+CLAUDE.local.md
